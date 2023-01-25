@@ -23,12 +23,12 @@ def test_encrypt_message():
 
 
 def _test_key_not_int():
-    with pytest.raises(expected_exception=TypeError, match="tipo inválido para key"):
+    with pytest.raises(TypeError, match="tipo inválido para key"):
         encrypt_message(VALID_MESSAGE, INVALID_KEY)
 
 
 def _test_message_not_sting():
-    with pytest.raises(expected_exception=TypeError, match="tipo inválido para message"):
+    with pytest.raises(TypeError, match="tipo inválido para message"):
         encrypt_message(INVALID_MESSAGE, VALID_KEY_EVEN)
 
 
