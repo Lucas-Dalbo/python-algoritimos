@@ -16,7 +16,7 @@ def is_anagram(first_string: str, second_string: str):
 
 
 # Merge Sort auxiliar
-# Referência: Course
+# Referência: https://www.youtube.com/watch?v=5prE6Mz8Vh0&ab_channel=Programa%C3%A7%C3%A3oDin%C3%A2mica
 def merge_sort(word, start=0, end=None):
     if end is None:
         end = len(word)
