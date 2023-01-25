@@ -8,10 +8,11 @@ INVALID_MESSAGE = 1453
 VALID_KEY_EVEN = 2
 VALID_KEY_ODD = 3
 VALID_MESSAGE = 'ABCDE'
+VALID_MESSAGE_2 = 'casablanca'
 
 RESULT_NOT_FOUND = 'EDCBA'
 RESULT_EVEN = 'EDC_BA'
-RESULT_ODD = 'CBA_ED'
+RESULT_ODD = 'sac_acnalba'
 
 
 def test_encrypt_message():
@@ -43,5 +44,5 @@ def _test_key_even():
 
 
 def _test_key_odd():
-    result = encrypt_message(VALID_MESSAGE, VALID_KEY_ODD)
+    result = encrypt_message(VALID_MESSAGE_2, VALID_KEY_ODD)
     assert result == RESULT_ODD
