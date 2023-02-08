@@ -76,7 +76,6 @@ Utilizar o **Python** para resolver problemas e otimizar algoritmos, desenvolven
 ---
 ## O que foi utilizado?
  - Python.
- - Pymongo.
  - Pytest, Pytest-Cov, Pytest-Json.
  - Big-O, MatPlotLib.
  - Flake8, Black, Wheel.
