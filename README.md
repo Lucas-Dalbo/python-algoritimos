@@ -1,9 +1,9 @@
-# Projeto: Tech News Scraping
+# Projeto: Algoritmos
 Este projeto foi desenvolvido enquanto estudante da Trybe no módulo de Ciências da Computação.
 
 ---
 ## Objetivo
-Utilizar o **Python** para resolver problemas e otimizar algoritmos, desenvolvendo minha capacidade de implementar soluções para diversos tipos de problemos.
+Utilizar o **Python** para resolver problemas e otimizar algoritmos, desenvolvendo minha capacidade de implementar soluções para diversos tipos de problemas.
 
 ---
 ## Habilidades desenvolvidas
@@ -15,7 +15,7 @@ Utilizar o **Python** para resolver problemas e otimizar algoritmos, desenvolven
 
 ---
 ## Requisitos
-### 1. Encontre o horário em que o maior número de estudantes esta presente (Algotimo de busca)
+### 1. Encontre o horário em que o maior número de estudantes esta presente (Algoritmo de busca)
   <details>
     <summary>Detalhes</summary>
     
@@ -92,7 +92,7 @@ Utilizar o **Python** para resolver problemas e otimizar algoritmos, desenvolven
   ```bash
     python3 -m pip install -r dev-requirements.txt
   ```
-4. Na pasta `challenges` você encontrara todos os modulos desenvolvidas, você pode executa-los usando o modo iterativo
+4. Na pasta `challenges` você encontrara todos os módulos desenvolvidas, você pode executá-los usando o modo iterativo
   ```bash
     python3 -i <PATH-DO-ARQUIVO>
   ```
